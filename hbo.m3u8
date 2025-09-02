@@ -1,16 +1,13 @@
 <html lang="es">
 <head>
-
 <meta name="robots" content="noindex" />
 <style type="text/css">
-
 body {
    margin: 0;
    padding: 0;
 }
 </style>
 </head>
-
 <script type="text/javascript">
 function getParameterByName(name) {
 	name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
@@ -18,8 +15,6 @@ function getParameterByName(name) {
 	results = regex.exec(location.search);
 	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
-
-
 </script>
 <script src='https://content.jwplatform.com/libraries/KB5zFt7A.js'></script>
 
@@ -28,14 +23,11 @@ function getParameterByName(name) {
 <div id="player"></div>
 <script type="text/javascript">
 var playerInstance=jwplayer("player");
-
 playerInstance.setup({
-
     playlist: [{
     "title": "hbohd",
     "description": "tiea iptv",
- 
-      "sources": [
+       "sources": [
         {
           "default": false,
           "type": "dash",
@@ -55,5 +47,4 @@ playerInstance.setup({
     sharing: {}
 });
 </script>
-
 </body></html>
